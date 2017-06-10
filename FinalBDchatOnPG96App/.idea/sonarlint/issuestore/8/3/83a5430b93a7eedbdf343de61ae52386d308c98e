@@ -1,0 +1,26 @@
+
+›%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø
+Esquid:S3010"+Remove this assignment of "bufferedReader".(…©Ùıÿÿÿÿ
+>squid:S3010")Remove this assignment of "serverSocket".(Ùõ¯Â
+=squid:S3010"#Remove this assignment of "socket".(é‘¥Èúÿÿÿÿ
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚šçşÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(š»ßá
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ª¸±Øúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Áù¿›şÿÿÿÿ
+Lsquid:S1481"2Remove this unused "poolOfClients" local variable.(»©¶›ûÿÿÿÿ
+Esquid:S1481"0Remove this unused "poolDialogs" local variable.(¸Úû›
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Zsquid:S2147"ECombine this catch with the one at line 100, which has the same body.(ï­£Ä
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹¡ğ€ûÿÿÿÿ
+Csquid:S1940")Use the opposite operator ("<=") instead.(ÙœñÕüÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(Ú¸ÿÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

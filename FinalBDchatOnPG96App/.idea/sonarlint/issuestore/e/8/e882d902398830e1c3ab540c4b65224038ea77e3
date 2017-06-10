@@ -1,0 +1,18 @@
+
+8squid:S3010"#Remove this assignment of "socket".(€¦ï
+zsquid:S1217"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(÷Úê‰ÿÿÿÿÿ
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ª¸±Øúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Áù¿›şÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(Î«æì
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(•¡ùÿÿÿÿ
+Jsquid:S2209"5Change this instance-reference to a static reference.(€¦ï
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Ysquid:S2147"DCombine this catch with the one at line 55, which has the same body.(ä ¹€
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹¡ğ€ûÿÿÿÿ
+Csquid:S1940")Use the opposite operator ("<=") instead.(ÙœñÕüÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
