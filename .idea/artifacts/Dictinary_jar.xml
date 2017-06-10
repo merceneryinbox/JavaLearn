@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Dictinary:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Dictinary_jar</output-path>
+    <root id="archive" name="Dictinary.jar">
+      <element id="module-output" name="Dictinary" />
+    </root>
+  </artifact>
+</component>

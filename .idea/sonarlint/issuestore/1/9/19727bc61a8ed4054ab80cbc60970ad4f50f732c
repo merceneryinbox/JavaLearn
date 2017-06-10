@@ -1,0 +1,14 @@
+
+gsquid:S00116"QRename this field "DELETE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëô¾¨
+lsquid:S00116"QRename this field "REDUCT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¾ëùÿÿÿÿ
+{"squid:ClassVariableVisibilityCheck"PMake word a static final constant or non-public and provide accessors if needed.(¨œÿ"
+lsquid:S00116"QRename this field "SEARCH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îüêùÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"QMake ERROR a static final constant or non-public and provide accessors if needed.(§ûÚ¦ùÿÿÿÿ
+ksquid:S00116"PRename this field "ERROR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ûÚ¦ùÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"RMake SEARCH a static final constant or non-public and provide accessors if needed.(Îüêùÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"OMake ADD a static final constant or non-public and provide accessors if needed.(¸à”âÿÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"VMake definition a static final constant or non-public and provide accessors if needed.(¥™¿Ğ
+|"squid:ClassVariableVisibilityCheck"PMake flag a static final constant or non-public and provide accessors if needed.(ÃûâÎ
+~"squid:ClassVariableVisibilityCheck"RMake DELETE a static final constant or non-public and provide accessors if needed.(Ëô¾¨
+ƒ"squid:ClassVariableVisibilityCheck"RMake REDUCT a static final constant or non-public and provide accessors if needed.(³¾ëùÿÿÿÿ
+isquid:S00116"NRename this field "ADD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸à”âÿÿÿÿÿ

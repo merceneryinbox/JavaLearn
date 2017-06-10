@@ -1,0 +1,50 @@
+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(œèÜ®
+`squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ô·ˆñûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òø›Æÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò ¹–şÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘¤€…
+«%squid:RedundantThrowsDeclarationCheck"|Remove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from constructor's body.(êĞ×¢
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(À‘Êùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(“ïÔË
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÎéÏ•øÿÿÿÿ
+vsquid:S1450"\Remove the "replyEntryDic" field and declare it as a local variable in the relevant methods.(ƒéŸùÿÿÿÿ
+5squid:S3010" Remove this assignment of "exe".(“îÜ…
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œÿƒõüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+8squid:S3010"#Remove this assignment of "socket".(½ùáĞ
+qsquid:S1450"WRemove the "entryDic" field and declare it as a local variable in the relevant methods.(°ÖÙÔüÿÿÿÿ
+Jsquid:S2209"5Change this instance-reference to a static reference.(½ùáĞ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(š„ƒóûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(’Ñı”ıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ú£Ú•
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ï‹Ê€üÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿Ş£‚øÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(®êıÍ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÄğŞ‡ÿÿÿÿÿ

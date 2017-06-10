@@ -1,0 +1,116 @@
+
+N"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ÁÅ®
+9squid:S3010"%Remove this assignment of "entryDic".(ÙûÃP
+Isquid:S3010"/Remove this assignment of "fileErrorLogWriter".(Ñ©î¥ùÿÿÿÿ
+Asquid:S3010"'Remove this assignment of "connection".(¥ŸÀáøÿÿÿÿ
+?squid:S3010"%Remove this assignment of "pSDelete".(ÕÅ½‘ùÿÿÿÿ
+?squid:S3010"%Remove this assignment of "pSSearch".(ğèÀşÿÿÿÿ
+7squid:S3010""Remove this assignment of "pSAdd".(©£¤è
+9squid:S3010"%Remove this assignment of "pSReduct".(òã"
+¤squid:S1192"‰Define a constant instead of duplicating this literal "DBServerHandler : DBServerHandler_error_log.txt file creating troubles\n" 3 times.(úêºñşÿÿÿÿ
+“squid:S1192"~Define a constant instead of duplicating this literal "DBServerHandler : error log file writing operation troubles\n" 4 times.(‘ºà
+¦squid:S1192"‹Define a constant instead of duplicating this literal "DBServerHandler : DB resources .close(); or connection.close(); troubles\n" 3 times.(Íª•Èøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨åğüùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿ­‹øÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾Ì‡¯
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(æÁ¥•
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÔØ¹Z
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„Ó±âûÿÿÿÿ
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÔØ¹Z
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„Ó±âûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„Ó±âûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Äø™
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(éÙñ’
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(’Ü¢Ìüÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(—äÍ³
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(®¨âºùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÔŞ•¼üÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(é³ÇÀûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÜÃÅ´ûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(±À®¾şÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹Ïƒš
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(àŞ‹ª
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥ÆÇ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(âáÕğ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„Ó±âûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(õùÓ«şÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(º½°ö
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(“ááä
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú›å´
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Úü€ã
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(âÆÄ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(âáÕğ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„Ó±âûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ô¨‡Ø
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ª—ÿèıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Šÿáÿÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÃÎèá
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„Ó±âûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹æ™üÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã”·³
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰­ üÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(³•ğõùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(âáÕğ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„Ó±âûÿÿÿÿ
+Isquid:S2209"5Change this instance-reference to a static reference.(ÙûÃP
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+]squid:S2259"HA "NullPointerException" could be thrown; "entryDicOut" is nullable here(ÌÍˆÙ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

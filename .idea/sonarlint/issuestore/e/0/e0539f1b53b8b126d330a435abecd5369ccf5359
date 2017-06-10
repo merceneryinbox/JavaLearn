@@ -1,0 +1,60 @@
+
+°squid:S1192"šDefine a constant instead of duplicating this literal "Controller: Controller send entryDic to handle in DoItWithEntry class in executor service" 3 times.(»ÂŒÉ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†ÂÇ“øÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Îþ—Íþÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(°Øù7
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(…É¸¸þÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢ÌÅøÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(»ÂŒÉ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(’£ŠÇ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(µâ‡î
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(³Þî™ûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(»ÂŒÉ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ó®ÿ¤ûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(»ÂŒÉ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(»à„Â
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(õöÛž
+Lsquid:S1172"2Remove this unused method parameter "actionEvent".(£‘Ç¶ûÿÿÿÿ
+Gsquid:S1172"2Remove this unused method parameter "actionEvent".(÷˜øß
+Lsquid:S1172"2Remove this unused method parameter "actionEvent".(ÅÚü‡øÿÿÿÿ
+Gsquid:S1172"2Remove this unused method parameter "actionEvent".(‹žþŠ
+Lsquid:S1172"2Remove this unused method parameter "actionEvent".(¼ö‘þÿÿÿÿ
+Gsquid:S1172"2Remove this unused method parameter "actionEvent".(Ë«þÅ
+Gsquid:S1172"2Remove this unused method parameter "actionEvent".(—¿€ó
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+_squid:S2147"ECombine this catch with the one at line 113, which has the same body.(åþŒóùÿÿÿÿ
+_squid:S2147"ECombine this catch with the one at line 163, which has the same body.(åþŒóùÿÿÿÿ
+_squid:S2147"ECombine this catch with the one at line 215, which has the same body.(åþŒóùÿÿÿÿ
+_squid:S2147"ECombine this catch with the one at line 260, which has the same body.(åþŒóùÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¼×Ô
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÂÏ³øÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÂÏ³øÿÿÿÿ
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É±Ü¬þÿÿÿÿ
+Wsquid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

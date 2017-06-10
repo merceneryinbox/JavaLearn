@@ -2,17 +2,17 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
     <export-instructions>
       <create-header value="true" />
-      <quote-values-containing-separator value="true" />
+      <quote-values-containing-separator value="false" />
       <quote-all-values value="false" />
       <value-separator value="" />
-      <file-name value="" />
-      <file-location value="" />
+      <file-name value="Result 15.xls" />
+      <file-location value="D:\" />
       <scope value="GLOBAL" />
       <destination value="FILE" />
       <format value="EXCEL" />
@@ -23,10 +23,34 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="4ec04a8b-adca-45c9-94a0-e80dc9d37b7f">
+        <schema name="dictionary" object-types="function, sequence, table, view" />
+      </connection>
+      <connection connection-id="40689a1d-3c88-4cb6-aa80-5ef6368bf453">
+        <schema name="dictionary" object-types="function, table, view" />
+        <schema name="pg_catalog" object-types="function" />
+        <schema name="public" object-types="function, table, view" />
+      </connection>
+    </loaded-nodes>
+  </component>
+  <component name="DBNavigator.Project.DatabaseConsoleManager">
+    <connection id="4ec04a8b-adca-45c9-94a0-e80dc9d37b7f">
+      <console name="Connection" type="STANDARD"><![CDATA[select
+    *
+from
+    word_define ;]]></console>
+    </connection>
+    <connection id="40689a1d-3c88-4cb6-aa80-5ef6368bf453">
+      <console name="Connection 1" type="STANDARD"><![CDATA[select * from word_define;]]></console>
+    </connection>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
+  </component>
+  <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/src/serverside/dictionaryCreate.sql" connection-id="40689a1d-3c88-4cb6-aa80-5ef6368bf453" current-schema="dic" />
+    <mapping file-url="file://$PROJECT_DIR$/src/sample/dictionary-postgres-demo.sql" connection-id="40689a1d-3c88-4cb6-aa80-5ef6368bf453" current-schema="public" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
@@ -44,15 +68,170 @@
     <filters />
   </component>
   <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
-    <recently-used-interfaces />
+    <recently-used-interfaces>
+      <mapping database-type="POSTGRES" interface-id="DEFAULT" />
+    </recently-used-interfaces>
   </component>
   <component name="DBNavigator.Project.Settings">
-    <connections />
+    <connections>
+      <connection id="4ec04a8b-adca-45c9-94a0-e80dc9d37b7f" active="true">
+        <database>
+          <name value="Connection" />
+          <description value="" />
+          <database-type value="POSTGRES" />
+          <config-type value="BASIC" />
+          <database-version value="9.6" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="DATABASE" />
+          <host value="localhost" />
+          <port value="5432" />
+          <database value="dictionary" />
+          <os-authentication value="false" />
+          <empty-password value="false" />
+          <user value="postgres" />
+          <password value="cG9zdGdyZXM=" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <proxy-password value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <details>
+          <charset value="UTF-8" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <password-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="40689a1d-3c88-4cb6-aa80-5ef6368bf453" active="true">
+        <database>
+          <name value="Connection 1" />
+          <description value="" />
+          <database-type value="POSTGRES" />
+          <config-type value="BASIC" />
+          <database-version value="9.6" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="DATABASE" />
+          <host value="localhost" />
+          <port value="5432" />
+          <database value="dictionary" />
+          <os-authentication value="false" />
+          <empty-password value="false" />
+          <user value="postgres" />
+          <password value="cG9zdGdyZXM=" />
+        </database>
+        <properties>
+          <auto-commit value="true" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <proxy-password value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <details>
+          <charset value="UTF-8" />
+          <ddl-file-binding value="true" />
+          <database-logging value="true" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="development" />
+          <idle-time-to-disconnect value="30" />
+          <password-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+    </connections>
     <browser-settings>
       <general>
         <display-mode value="TABBED" />
         <navigation-history-size value="100" />
-        <show-object-details value="false" />
+        <show-object-details value="true" />
       </general>
       <filters>
         <object-type-filter>
@@ -124,8 +303,8 @@
           <object-type name="CLUSTER" enabled="false" />
           <object-type name="DBLINK" enabled="true" />
         </lookup-objects>
-        <force-database-load value="false" />
-        <prompt-connection-selection value="true" />
+        <force-database-load value="true" />
+        <prompt-connection-selection value="false" />
         <prompt-schema-selection value="true" />
       </lookup-filters>
     </navigation-settings>
@@ -145,8 +324,8 @@
     </dataset-grid-settings>
     <dataset-editor-settings>
       <text-editor-popup>
-        <active value="false" />
-        <active-if-empty value="false" />
+        <active value="true" />
+        <active-if-empty value="true" />
         <data-length-threshold value="100" />
         <popup-delay value="1000" />
       </text-editor-popup>
@@ -194,7 +373,7 @@
         <show-spec-declaration-navigation-gutter value="true" />
       </general>
       <confirmations>
-        <save-changes value="false" />
+        <save-changes value="true" />
         <revert-changes value="true" />
       </confirmations>
     </code-editor-settings>
@@ -228,21 +407,21 @@
             <filter-element type="OBJECT" id="dblink" selected="true" />
           </user-schema>
           <public-schema>
-            <filter-element type="OBJECT" id="table" selected="false" />
-            <filter-element type="OBJECT" id="view" selected="false" />
-            <filter-element type="OBJECT" id="materialized view" selected="false" />
-            <filter-element type="OBJECT" id="index" selected="false" />
-            <filter-element type="OBJECT" id="constraint" selected="false" />
-            <filter-element type="OBJECT" id="trigger" selected="false" />
-            <filter-element type="OBJECT" id="synonym" selected="false" />
-            <filter-element type="OBJECT" id="sequence" selected="false" />
-            <filter-element type="OBJECT" id="procedure" selected="false" />
-            <filter-element type="OBJECT" id="function" selected="false" />
-            <filter-element type="OBJECT" id="package" selected="false" />
-            <filter-element type="OBJECT" id="type" selected="false" />
-            <filter-element type="OBJECT" id="dimension" selected="false" />
-            <filter-element type="OBJECT" id="cluster" selected="false" />
-            <filter-element type="OBJECT" id="dblink" selected="false" />
+            <filter-element type="OBJECT" id="table" selected="true" />
+            <filter-element type="OBJECT" id="view" selected="true" />
+            <filter-element type="OBJECT" id="materialized view" selected="true" />
+            <filter-element type="OBJECT" id="index" selected="true" />
+            <filter-element type="OBJECT" id="constraint" selected="true" />
+            <filter-element type="OBJECT" id="trigger" selected="true" />
+            <filter-element type="OBJECT" id="synonym" selected="true" />
+            <filter-element type="OBJECT" id="sequence" selected="true" />
+            <filter-element type="OBJECT" id="procedure" selected="true" />
+            <filter-element type="OBJECT" id="function" selected="true" />
+            <filter-element type="OBJECT" id="package" selected="true" />
+            <filter-element type="OBJECT" id="type" selected="true" />
+            <filter-element type="OBJECT" id="dimension" selected="true" />
+            <filter-element type="OBJECT" id="cluster" selected="true" />
+            <filter-element type="OBJECT" id="dblink" selected="true" />
           </public-schema>
           <any-schema>
             <filter-element type="OBJECT" id="table" selected="true" />
@@ -359,11 +538,13 @@
         <fetch-block-size value="100" />
         <execution-timeout value="20" />
         <debug-execution-timeout value="600" />
-        <focus-result value="false" />
-        <prompt-execution value="false" />
+        <focus-result value="true" />
+        <prompt-execution value="true" />
       </statement-execution>
       <script-execution>
-        <command-line-interfaces />
+        <command-line-interfaces>
+          <value id="f3bc4d0f-69c9-4718-96f4-51e5d899b790" name="PostgreSQL terminal" executable-path="C:/PostgreSQL/pg96/bin/psql.exe" database-type="POSTGRES" />
+        </command-line-interfaces>
         <execution-timeout value="300" />
       </script-execution>
       <method-execution>
@@ -375,9 +556,9 @@
     <operation-settings>
       <transactions>
         <uncommitted-changes>
-          <on-project-close value="ASK" />
-          <on-disconnect value="ASK" />
-          <on-autocommit-toggle value="ASK" />
+          <on-project-close value="COMMIT" />
+          <on-disconnect value="COMMIT" />
+          <on-autocommit-toggle value="COMMIT" />
         </uncommitted-changes>
         <multiple-uncommitted-changes>
           <on-commit value="ASK" />
@@ -387,15 +568,15 @@
       <session-browser>
         <disconnect-session value="ASK" />
         <kill-session value="ASK" />
-        <reload-on-filter-change value="false" />
+        <reload-on-filter-change value="true" />
       </session-browser>
       <compiler>
         <compile-type value="KEEP" />
         <compile-dependencies value="ASK" />
-        <always-show-controls value="false" />
+        <always-show-controls value="true" />
       </compiler>
       <debugger>
-        <debugger-type value="ASK" />
+        <debugger-type value="JDBC" />
         <use-generic-runners value="true" />
       </debugger>
     </operation-settings>
@@ -416,7 +597,7 @@
         <lookup-ddl-files value="true" />
         <create-ddl-files value="false" />
         <synchronize-ddl-files value="true" />
-        <use-qualified-names value="false" />
+        <use-qualified-names value="true" />
         <make-scripts-rerunnable value="true" />
       </general>
     </ddl-file-settings>
@@ -438,7 +619,7 @@
           <connection-tabs value="true" />
           <dialog-headers value="true" />
           <object-editor-tabs value="true" />
-          <script-editor-tabs value="false" />
+          <script-editor-tabs value="true" />
           <execution-result-tabs value="true" />
         </visibility-settings>
       </environment>

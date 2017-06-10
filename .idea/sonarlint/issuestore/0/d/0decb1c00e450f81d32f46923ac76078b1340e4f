@@ -1,0 +1,29 @@
+
+8squid:S3010"#Remove this assignment of "socket".(«ÀÌŸ
+Dsquid:S3010"/Remove this assignment of "objectOutputStream".(‰˜ë¤
+Hsquid:S3010".Remove this assignment of "objectInputStream".(Ï¡„„ÿÿÿÿÿ
+\squid:S1192"GDefine a constant instead of duplicating this literal "error " 4 times.(‹û£û
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸’Å¥
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(í±€©
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(×ˆ¤Íúÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(îÃˆ×
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Á´í˜
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(™µå‰ÿÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+Ysquid:S2147"DCombine this catch with the one at line 86, which has the same body.(ýàÑÎ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
